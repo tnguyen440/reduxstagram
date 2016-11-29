@@ -11,6 +11,7 @@ export function increment(index) {
 
 //add comment
 export function addComment(postId, author, comment) {
+    //console.log("Firing adding comment");    
     return {
         type: types.ADD_COMMENT,
         postId,
