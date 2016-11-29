@@ -4,7 +4,7 @@ import * as types from './actionTypes';
 //increment likes
 export function increment(index) {
     return {
-        type: types.ADD_COMMENT,
+        type: types.INCREMENT_LIKES,
         index
     };
 }
